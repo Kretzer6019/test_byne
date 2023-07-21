@@ -10,4 +10,4 @@ This repository contains the source code for Byne Test.
   `go mod download`
 - Run the server:
   `go run main.go`
-- Go to client folder an whenever you run `go run main.go`, it will simulate the requests for the server and return the values in the terminal
+- Go to client folder an whenever you run `go run main.go`, it will execute requests for the server and return the values in the terminal
