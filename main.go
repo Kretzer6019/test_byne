@@ -1,7 +1,15 @@
 package main
 
-import "fmt"
+import (
+	"dependencies/router"
+
+	"github.com/gin-gonic/gin"
+)
 
 func main() {
-	fmt.Println("Hello, World!")
+	r := gin.Default()
+
+	router.DefineRoutes(r)
+
+	r.Run("localhost:8080")
 }
