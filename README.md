@@ -2,7 +2,7 @@
 This repository contains the source code for Byne Test.
 
 ## Languages
-This repo uses Go
+- Go
 
 ## Setup
 - Install golang v.1.20 (https://golang.org/)
